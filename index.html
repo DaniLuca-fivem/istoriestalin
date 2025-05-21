@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Proiect Istoric: Iosif Stalin</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%; /* puțin mai mare pe orizontală */
+  background-image: url("propaganda.jpg");
+  min-height: 50vh;
+  width: 102vw; /* puțin mai mare decât 100vw */
+  position: relative;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide">STALIN</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#biography" class="w3-bar-item w3-button" onclick="showSection('biography')"><i class="fa fa-user"></i> BIOGRAFIE</a>
+      <a href="#achievements" class="w3-bar-item w3-button" onclick="showSection('achievements')"><i class="fa fa-trophy"></i> REALIZĂRI</a>
+      <a href="#legacy" class="w3-bar-item w3-button" onclick="showSection('legacy')"><i class="fa fa-book"></i> IMPACT</a>
+      <a href="#authors" class="w3-bar-item w3-button" onclick="showSection('authors')"><i class="fa fa-users"></i> AUTORI</a>
+      <a href="#bibliografie" class="w3-bar-item w3-button" onclick="showSection('bibliografie')"><i class="fa fa-book"></i> BIBLIOGRAFIE</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Închide ×</a>
+  <a href="#biography" onclick="w3_close(); showSection('biography')" class="w3-bar-item w3-button"><i class="fa fa-user"></i> BIOGRAFIE</a>
+  <a href="#achievements" onclick="w3_close(); showSection('achievements')" class="w3-bar-item w3-button">REALIZĂRI</a>
+  <a href="#legacy" onclick="w3_close(); showSection('legacy')" class="w3-bar-item w3-button">MOȘTENIRE</a>
+  <a href="#authors" onclick="w3_close(); showSection('authors')" class="w3-bar-item w3-button">AUTORI</a>
+  <a href="#bibliografie" onclick="w3_close(); showSection('bibliografie')" class="w3-bar-item w3-button">BIBLIOGRAFIE</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home" style="padding-bottom: 12px; position: relative;">
+  <div style="
+    position: absolute;
+    top: 75%;
+    right: 3vw;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.45);
+    color: #fff;
+    padding: 18px 28px;
+    border-radius: 12px;
+    max-width: 360px;
+    text-align: right;
+  ">
+    <span style="font-size:1.5rem; font-weight:700;">Iosif Stalin: Omul de otel</span>
+    <br>
+    <span style="font-size:1.1rem; font-weight:400;">Explorează viața și impactul uneia dintre cele mai puternice și controversate figuri din istorie.</span>
+  </div>
+</header>
+
+<!-- Biography Section -->
+<div class="w3-container" style="padding:48px 16px; min-height:50vh;" id="biography">
+  <div class="w3-row w3-margin-bottom" style="display: flex; justify-content: center; gap: 32px;">
+    <div style="flex:0 1 320px; display:flex; justify-content:flex-end;">
+      <img src="img1.jpg" style="width:90%; max-width:260px;" alt="Stalin tânăr revoluționar">
+    </div>
+    <div style="flex:0 1 320px; display:flex; justify-content:flex-start;">
+      <img src="img2.jpg" style="width:90%; max-width:260px;" alt="Stalin în anii tinereții">
+    </div>
+  </div>
+  <h3 class="w3-center"><i class="fa fa-user"></i> BIOGRAFIE</h3>
+  <p class="w3-center w3-large">Povestea vieții lui Iosif Stalin</p>
+  <div class="w3-row-padding w3-center" style="margin-top:32px">
+    <p>Iosif Vissarionovici Stalin s-a născut pe 18 decembrie 1878, în orașul Gori, situat în actuala Georgie, care pe atunci făcea parte din Imperiul Țarist. Numele său real era Iosif Vissarionovici Djugașvili. Provenea dintr-o familie modestă — tatăl său era cizmar, iar mama sa, o femeie foarte religioasă, și-a dorit ca fiul ei să devină preot. Astfel, tânărul Iosif a urmat cursurile Seminarului Teologic din Tbilisi, însă a fost exmatriculat în 1899 din cauza implicării sale în mișcările revoluționare și a lecturilor marxiste interzise.
+
+        După exmatriculare, s-a implicat activ în mișcarea bolșevică, aderând la Partidul Muncitoresc Social-Democrat Rus. În această perioadă, pentru a evita autoritățile țariste și a-și proteja identitatea, Iosif Djugașvili a început să folosească diferite pseudonime. Cel mai cunoscut dintre acestea a fost Stalin, derivat din cuvântul rusesc stal, care înseamnă "oțel". Așadar, „Stalin” poate fi tradus ca „omul de oțel”, un nume menit să-i reflecte duritatea, hotărârea și voința de neclintit — calități pe care dorea să le afișeze atât în fața colegilor revoluționari, cât și a adversarilor săi politici.
+        
+        Ascensiunea sa politică a fost graduală, dar constantă. După Revoluția din Octombrie 1917, a ocupat diverse funcții importante în cadrul partidului bolșevic. În 1922, a fost numit Secretar General al Partidului Comunist al Uniunii Sovietice, o poziție care părea inițial mai degrabă administrativă, dar pe care Stalin a folosit-o cu abilitate pentru a-și construi o rețea de loialități și a elimina treptat concurenții politici, inclusiv pe Leon Troțki. Astfel, la mijlocul anilor 1920, Stalin devenea liderul de facto al Uniunii Sovietice, conducând țara cu o mână de fier până la moartea sa, în 1953.</p>
+  </div>
+</div>
+
+<!-- Achievements Section -->
+<div class="w3-container w3-light-grey w3-hide" style="padding:48px 16px; min-height:50vh;" id="achievements">
+  <div class="w3-row w3-margin-bottom" style="display: flex; justify-content: center; gap: 32px;">
+    <div style="flex:0 1 320px; display:flex; justify-content:flex-end;">
+      <img src="img3.jpg" style="width:90%; max-width:260px;" alt="Stalin la fabrică">
+    </div>
+    <div style="flex:0 1 320px; display:flex; justify-content:flex-start;">
+      <img src="img4.jpg" style="width:90%; max-width:260px;" alt="Stalin în timpul războiului">
+    </div>
+  </div>
+  <h3 class="w3-center">REALIZĂRI</h3>
+  <p class="w3-center w3-large">Realizări și momente cheie</p>
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h4>Industrializarea</h4>
+      <p>Planurile cincinale ale lui Stalin au dus la industrializarea rapidă a Uniunii Sovietice, transformând-o dintr-o societate agrară într-o putere industrială. S-au construit fabrici, uzine și infrastructură, dar cu costuri umane enorme.</p>
+    </div>
+    <div class="w3-col m6">
+      <h4>Victoria în Al Doilea Război Mondial</h4>
+      <p>Stalin a condus Uniunea Sovietică prin Al Doilea Război Mondial, jucând un rol crucial în înfrângerea Germaniei Naziste. Cu toate acestea, războiul a provocat pierderi umane și materiale imense pentru URSS.</p>
+    </div>
+    <div class="w3-col m6">
+      <h4>Colectivizarea Agriculturii</h4>
+      <p>Colectivizarea forțată a agriculturii a fost o politică brutală care a dus la foamete și la moartea a milioane de țărani. Scopul era de a elimina proprietatea privată asupra pământului și de a crea ferme colective controlate de stat.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Legacy Section -->
+<div class="w3-container w3-hide" style="padding:48px 16px; min-height:50vh;" id="legacy">
+  <div class="w3-row w3-margin-bottom" style="display: flex; justify-content: center; gap: 32px;">
+    <div style="flex:0 1 320px; display:flex; justify-content:flex-end;">
+      <img src="img5.jpg" style="width:90%; max-width:260px;" alt="Statuie Stalin">
+    </div>
+    <div style="flex:0 1 320px; display:flex; justify-content:flex-start;">
+      <img src="img6.jpg" style="width:90%; max-width:260px;" alt="Poster propagandă Stalin">
+    </div>
+  </div>
+  <h3 class="w3-center">IMPACT</h3>
+  <p class="w3-center w3-large">Impactul asupra istoriei și societății</p>
+  <p>Stalin a transformat rapid URSS într-o superputere industrială prin planuri cincinale și colectivizare forțată, care au provocat foamete și milioane de victime. A instaurat un regim de teroare, marcând epoca prin epurări, lagăre (Gulag) și supraveghere totală. A jucat un rol decisiv în Al Doilea Război Mondial și a extins influența sovietică în Europa de Est. După moartea sa, regimul a fost parțial condamnat prin destalinizare, dar moștenirea sa rămâne una dintre cele mai controversate din secolul XX.</p>
+</div>
+
+<!-- Authors Section -->
+<div class="w3-container w3-light-grey w3-hide" style="padding:48px 16px; min-height:50vh;" id="authors">
+  <h3 class="w3-center"><i class="fa fa-users"></i> AUTORI</h3>
+  <p class="w3-center w3-large">Proiect realizat de:</p>
+  <div class="w3-row-padding w3-center" style="margin-top:32px">
+    <div class="w3-col m4 l4">
+      <p><b>Frontend: Budea Daniel</b></p>
+    </div>
+    <div class="w3-col m4 l4">
+      <p><b>Responsabil documentare: Pop Alexandra & Budea Daniel</b></p>
+    </div>
+    <div class="w3-col m4 l4">
+      <p><b>Întreținere & Backend: Budea Daniel</b></p>
+    </div>
+  </div>
+</div>
+
+<!-- Bibliografie Section -->
+<div class="w3-container w3-hide" style="padding:48px 16px; min-height:50vh;" id="bibliografie">
+  <h3 class="w3-center"><i class="fa fa-book"></i> BIBLIOGRAFIE</h3>
+  <div class="w3-row-padding w3-center" style="margin-top:32px">
+    <a href="https://enciclopediaromaniei.ro" target="_blank" class="w3-button w3-blue w3-margin w3-large">Enciclopedia României</a>
+    <a href="https://www.historia.ro" target="_blank" class="w3-button w3-teal w3-margin w3-large">Historia.ro</a>
+    <a href="https://csrs.centre.ubbcluj.ro" target="_blank" class="w3-button w3-green w3-margin w3-large">Centrul de Studii Ruse și Sovietice</a>
+  </div>
+  <ul class="w3-ul w3-large w3-margin-top" style="max-width:600px;margin:auto;">
+    <li>
+      <b>Enciclopedia României</b> – articol despre Stalin
+    </li>
+    <li>
+      <b>Historia.ro</b> – revistă de istorie cu articole de specialitate:
+      <br>(„Stalin – omul de oțel și dictatura fricii”)
+    </li>
+    <li>
+      <b>Centrul de Studii Ruse și Sovietice – Universitatea Babeș-Bolyai</b>
+    </li>
+  </ul>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Înapoi sus</a>
+</footer>
+
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+
+function showSection(sectionId) {
+  // Hide all sections except the header
+  var sections = document.querySelectorAll(".w3-container[id]");
+  for (var i = 0; i < sections.length; i++) {
+    sections[i].classList.add("w3-hide");
+  }
+  // Show the selected section
+  document.getElementById(sectionId).classList.remove("w3-hide");
+}
+
+// Inițial arată doar secțiunea biografie
+showSection('biography');
+</script>
+
+</body>
+</html>
